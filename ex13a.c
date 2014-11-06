@@ -8,7 +8,7 @@ int main (void)
 	srand(time(NULL));
 	//bloco responsavel por gerar em que porta fica o premio
 	
-	for(i=0;i<=100;i++)
+	for(i=0;i<=100000;i++)
 	{
 
 		gerapremio=rand()%2;
@@ -44,18 +44,18 @@ int main (void)
 		if(escolho1==porta1)
 		{
 			novaescolha=1;
-			i--;
+			
 		}
 		if(escolho2==porta2)
 		{	
 			novaescolha=1;
-			i--;
+			
 		}
 		
 		if(escolho3==porta3)
 		{
 			novaescolha=1;
-			i--;
+			
 		}
 	
 		//bloco responsavel por gerar a segunda escolha garatid pelo ultimo if que que a primeira é errada,a variavel mudar vai fazer a esolha do jogador, se mudar=0, ele ficou com a primeira opção,se nao ele mudou, a flag é para que apenas cada escolha seja avaliada a cada loop.
