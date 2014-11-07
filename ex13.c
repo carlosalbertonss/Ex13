@@ -52,6 +52,7 @@ int main (void)
 			i--;
 		}
 		
+		
 		if(escolho3==porta3)
 		{
 			novaescolha=1;
