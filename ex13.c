@@ -49,7 +49,7 @@ int main (void)
 		if(escolho2==porta2)
 		{	
 			novaescolha=1;
-			i--;
+			i-;
 		}
 		
 		
